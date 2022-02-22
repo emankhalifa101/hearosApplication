@@ -1,0 +1,43 @@
+<div class="container-fluid bg-white pt-4 shadow">
+    <div class="row">
+        <div class="col-md-12">
+            <div>
+                <h1 class="text-center p-4 text-uppercase fw-bold">Filters</h1>
+            </div>
+            <!-- <form>
+                <div class="mb-4">
+                    <input type="text" class="form-control border-bottom border-0 rounded-0"  placeholder="Email">
+                  </div>
+                  <div class="mb-4">
+                    <input type="text" class="form-control border-bottom border-0 rounded-0"  placeholder="Phone">
+                  </div>
+                  <div class="mb-4">
+                    <input type="text" class="form-control border-bottom border-0 rounded-0"  placeholder="Name">
+                  </div>
+                  <div class="mb-4">
+                    <input type="text" class="form-control border-bottom border-0 rounded-0"  placeholder="Company">
+                  </div>
+                  <div class="mb-4">
+                    <label for="country" class="form-label">Country</label>
+                    <select id="country" class="form-select border-bottom border-0 rounded-0" aria-label="Default select example">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                  </div>
+                  <div class="mb-4">
+                    <label for="date" class="form-label">Date</label>
+                    <input id="date" type="date" class="form-control border-bottom border-0 rounded-0"  placeholder="Company">
+                  </div>
+                  <div class="mt-6 pb-4 pt-4 float-end">
+                    <button type="submit" class="btn btn-primary">Filter</button>
+                  </div>
+            </form> -->
+
+            <app-generic-form [formInputs] = "formInputs" (formResult)="getFilterationInputs($event)"></app-generic-form>
+
+        </div>
+    </div>
+
+</div>

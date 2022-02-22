@@ -1,0 +1,18 @@
+<form #createForm="ngForm" (ngSubmit)="getFormData(createForm.value)" [formGroup]="form">
+    <div *ngFor="let item of formInputs">
+      <label *ngIf="item.label" [for]="item.id" class="form-label">{{item.label}}</label>
+        <div [ngSwitch]="item.controlType" class="mb-4">
+            <input *ngSwitchCase="'text'" [id]="item.id" [type]="item.controlType" [value]="item.value" [formControlName]="item.key" class="form-control border-bottom border-0 rounded-0"  [placeholder]="item.placeholder">
+            
+            <select *ngSwitchCase="'dropdown'" [id]="item.id" [formControlName]="item.key" class="form-select border-bottom border-0 rounded-0">
+                <option *ngFor="let opt of item.options" [value]="opt.key">{{opt.value}}</option>
+            </select>
+            
+            <input *ngSwitchCase="'date'" [id]="item.id" [type]="item.controlType" [value]="item.value" [formControlName]="item.key" class="form-control border-bottom border-0 rounded-0"  [placeholder]="item.placeholder">   
+        </div>
+    </div>
+    
+      <div class="mt-6 pb-4 pt-4 float-end">
+        <button  class="btn btn-primary">Filter</button>
+      </div>
+</form>

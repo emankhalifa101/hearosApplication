@@ -1,0 +1,50 @@
+<div class="container-fluid bg-white pt-4 shadow">
+    <div class="row ">
+        <div class="col-md-12">
+            <!-------------- Start search box ---------------->
+        <nav class="navbar-expand-lg navbar-light bg-white p-2">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-2">
+                        <span class="navbar-brand border-end pe-5" >Hearos</span>
+                    </div>
+                    <div class="col-md-9">
+                        <input 
+                                class="form-control me-2" 
+                                type="text" 
+                                placeholder="Search by name "
+                                (keyup)="getSearchVal($event)"
+                                >
+                    </div>
+                    <div class="col-md-1">
+                        <button class="btn btn-outline-success" type="submit">filter</button>
+                    </div>
+                </div> 
+            </div>
+        </nav>
+        <!-------------- End search box ---------------->
+    
+        <!------------- satrt Hero List ----------------->
+        <table class="table">
+            <thead class="bg-light">
+              <tr >
+                <th *ngFor="let item of tableHead" scope="col">{{item}}</th>
+              </tr>
+            </thead>
+            <tbody >
+              <tr  *ngFor="let hearo of displayedList">
+                <th class="fw-normal">{{hearo.username}}</th>
+                <th class="fw-normal">{{hearo.phone}}</th>
+                <th class="fw-normal link-primary">{{hearo.email}}</th>
+                <th class="fw-normal">{{hearo.date | date}}</th>
+                <th class="fw-normal">{{hearo.country}}</th>
+                <th class="fw-normal">{{hearo.company}}</th>
+              </tr>
+            
+            </tbody>
+          </table>
+        <!------------- satrt Hero List ----------------->
+     
+        </div>
+    </div>
+</div>

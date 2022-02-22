@@ -1,0 +1,80 @@
+[
+    {
+       "id":818,
+       "username":"cedric reinger",
+       "email":"cedric.reinger@email.com",
+       "avatar":"https://robohash.org/dignissimosmolestiaefuga.png?size=300x300\u0026set=set1",
+       "gender":"Polygender",
+       "phone":"+1-758 1-517-747-0788",
+       "country":"United States",
+       "date":"1987-02-17",
+       "company": "xx"
+    },
+    {
+       "id":5524,
+       "username":"ray windler",
+       "email":"ray.windler@email.com",
+       "avatar":"https://robohash.org/suntplaceatpossimus.png?size=300x300\u0026set=set1",
+       "gender":"Agender",
+       "phone":"+375 1-338-289-9769",
+       "social_insurance_number":"411880305",
+       "date":"1966-06-17",
+       "country":"United States",
+       "company": "yy"
+    },
+    {
+       "id":82,
+       "username":"charles zulauf",
+       "email":"charles.zulauf@email.com",
+       "avatar":"https://robohash.org/evenietutaspernatur.png?size=300x300\u0026set=set1",
+       "gender":"Genderfluid",
+       "phone":"+233 280.790.5588",
+       "date":"1957-11-09",
+       "country":"United States",
+       "company": "zz"
+    },
+    {
+       "id":5183,
+       "username":"danita bode",
+       "email":"danita.bode@email.com",
+       "avatar":"https://robohash.org/reprehenderitrecusandaeomnis.png?size=300x300\u0026set=set1",
+       "gender":"Non-binary",
+       "phone_number":"+232 516.933.4967",
+       "date":"1957-03-17",
+       "country":"United States",
+       "company": "eeee"
+    },
+    {
+       "id":4287,
+       "username":"kathrine brekke",
+       "email":"kathrine.brekke@email.com",
+       "avatar":"https://robohash.org/etconsequaturet.png?size=300x300\u0026set=set1",
+       "gender":"Bigender",
+       "phone":"+43 646-226-0339",
+       "date":"1994-01-21",
+       "country":"United States",
+       "company": "abc"
+    },
+    {
+       "id":3334,
+       "username":"patti.fahey",
+       "email":"patti.fahey@email.com",
+       "avatar":"https://robohash.org/etiuresit.png?size=300x300\u0026set=set1",
+       "gender":"Genderfluid",
+       "phone":"+247 (842) 081-1918",
+       "date_of_birth":"1979-01-16",
+       "country":"United States",
+       "company": "xyzz"
+    },
+    {
+       "id":7984,
+       "username":"gussie mcclure",
+       "email":"gussie.mcclure@email.com",
+       "avatar":"https://robohash.org/illumlaudantiumsuscipit.png?size=300x300\u0026set=set1",
+       "gender":"Polygender",
+       "phone":"+809 876.984.1508",
+       "date":"1997-03-11",
+       "country":"United States",
+       "company": "asfd"
+    }
+ ]
